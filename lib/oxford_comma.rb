@@ -11,6 +11,5 @@ def oxford_comma(array)
     elsif length >= 3
       array[-1].prepend("and ")
       return array.join(", ")
-        binding.pry
     end
 end
